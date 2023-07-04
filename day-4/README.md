@@ -14,9 +14,9 @@ With a VPC, you have control over your network environment. You can define acces
 
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/12cc10b6-724c-42c9-b07b-d8a7ce124e24)
 
-By default, when you create an AWS account, AWS will create a default VPC for you but this default VPC is just to get started with AWS. You should create VPCs for applications or projects. 
+By default, when you create an AWS account, AWS will create a default VPC for you but this default VPC is just to get started with AWS. You should create VPCs for applications or projects.
 
-## VPC components 
+## VPC components
 
 The following features help you configure a VPC to provide the connectivity that your applications need:
 
@@ -33,7 +33,7 @@ IP addressing
 Network Access Control List (NACL)
 
     A Network Access Control List is a stateless firewall that controls inbound and outbound traffic at the subnet level. It operates at the IP address level and can allow or deny traffic based on rules that you define. NACLs provide an additional layer of network security for your VPC.
-   
+
 Security Group
 
     A security group acts as a virtual firewall for instances (EC2 instances or other resources) within a VPC. It controls inbound and outbound traffic at the instance level. Security groups allow you to define rules that permit or restrict traffic based on protocols, ports, and IP addresses.  
@@ -60,14 +60,10 @@ VPN connections
 
     Connect your VPCs to your on-premises networks using AWS Virtual Private Network (AWS VPN).
 
-
-## Resources 
+## Resources
 
 VPC with servers in private subnets and NAT
 
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+<https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html>
 
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
-
-
-
